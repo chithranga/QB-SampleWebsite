@@ -9,7 +9,9 @@ form{
 }
 
 .field label{
-    width: 30%;;
+    width: 30%;
+    font-size: 20px;
+    padding-top: 5px;
 }
 
 .field input {
@@ -41,7 +43,7 @@ form .err{
     margin-bottom: 15px;
     padding-right: 15px;
     margin-left: 30%;   
-    font-size: 12px;
+    /* font-size: 12px; */
     /* font-weight: normal; */
 }
 
@@ -54,26 +56,27 @@ form h1 {
 .pb-4{ padding-bottom: 20px;}
 .pb-5{ padding-bottom: 25px;}
 
-.success-msg{
-    color: #43a047;
+.success-msg p{  
+        color: #43a047;
+        text-align: center;
+        font-size: 24px;
+        color: #fff;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
 }
 
  .subscription-heading {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
     margin-bottom: 24px;
-    font-size: 24px;
+    font-size: 36px;
     color: #fff;
     text-align: center;
+    padding-bottom: 20px;
   }
- .subscription-text {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
-    margin-bottom: 24px;
-    font-size: 20px;
-    color: #fff;
-    text-align: center;
-  }
+
+ 
+
 
 @media screen and (max-width: 820px) {
     form{

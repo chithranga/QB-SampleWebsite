@@ -7,7 +7,7 @@ function Cards() {
   const data = [
     { 
       src :'images/img-5.jpg', 
-      text:'Explore the hidden waterfall deep inside the Amazon Jungle', 
+      text:'Hampden-Sydney College in Virginia  looked up one of the more obscure', 
       title :"Rocket",
       price: ['9' , '99'],     
       path :'/products',  
@@ -55,7 +55,8 @@ function Cards() {
   ]
   return (
     <div className='cards'>
-      <h1>Check out these EPIC Destinations!</h1>
+      <h2>Check out our available product packages!</h2>
+      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>

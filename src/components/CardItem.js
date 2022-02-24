@@ -14,11 +14,11 @@ function CardItem(props) {
             />
           </figure>
           <div className='cards__item__info'>
-            <h2>{props.title}</h2>  
+            <h3>{props.title}</h3>  
             <div className="sPrice-amount">
                 <sup>$</sup>{props.price[0]}<sup>.{props.price[1]}</sup><span className="sPrice-unit">/mo</span>
             </div>
-            <h5 className='cards__item__text'>{props.text}</h5>            
+            <h4 className='cards__item__text'>{props.text}</h4>            
             <div className='features'>
                 <ul>
                    {props.featurelist.map((features) =>(<li key={features.id}>{features.value}</li>))}                  
