@@ -49,7 +49,7 @@ function SignUpForm() {
     <div className='container'>
         <div className='subscription'>
             <h2 className='subscription-heading'>
-            Sing Up for QuickBooks
+            Sign Up for QuickBooks
             </h2>          
         </div>
             
@@ -57,7 +57,9 @@ function SignUpForm() {
         {Object.keys(formErrors).length === 0 && isSubmit ? (
            <div className="success-msg">
                <p>Thank you for Signing up</p>
-               <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less.</p></div>
+               <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less.</p>
+            </div>
+
         ) :  
         <form onSubmit={handleSubmit}>
             
